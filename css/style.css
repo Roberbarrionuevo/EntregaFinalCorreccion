@@ -1,0 +1,527 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+h1, h2, h3, h4, h5, h6 p {
+  font-family: "roboto", sans-serif;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  background-color: #C5A65A;
+}
+
+header {
+  display: flex;
+  min-height: 100px;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+header a {
+  font-family: "roboto", sans-serif;
+  text-decoration: none;
+}
+header nav, header a {
+  display: flex;
+  font-weight: 600;
+  padding-right: 10px;
+  color: #C5A65A;
+  margin: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+header .logo, header img {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  height: 50px;
+  margin-left: 10px;
+}
+header .logo .logo-nombre, header img .logo-nombre {
+  color: black;
+  padding-left: 40px;
+}
+header .logo .logo-nombre:hover, header img .logo-nombre:hover {
+  display: flex;
+  color: #C5A65A;
+}
+
+/* Inicio Página */
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+  padding: 6rem;
+  background-image: url(../imagenes/sillonliving2.JPG);
+  background-size: cover;
+  background-position: center;
+  border-radius: 3rem;
+}
+main .index__h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+main .index__p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 3rem;
+  margin-left: 8rem;
+  width: 80%;
+}
+
+/* Reserva turno */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  padding: 2rem;
+  margin: 1.5rem;
+  border-radius: 3rem;
+}
+section .booksy__h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #C5A65A;
+  text-align: center;
+}
+section .booksy__h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  color: #C5A65A;
+  text-align: center;
+}
+section p {
+  font-size: 0.8rem;
+  font-weight: 450;
+  color: #C5A65A;
+  text-align: center;
+}
+section .btn1 {
+  color: #C5A65A;
+  padding-left: 38rem;
+}
+
+/* SERVICIOS */
+.rockys__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+  padding: 8rem;
+  background-image: url(../imagenes/rockys-22\ 5.JPEG);
+  background-size: cover;
+  background-position: center;
+  border-radius: 3rem;
+}
+.rockys__info .rockys__h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 2rem;
+}
+.rockys__info .rockys__p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 3rem;
+  margin-left: 8rem;
+  width: 80%;
+}
+
+/* LINKS REDES */
+/* Footer */
+.redes {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.redes .redes__h2 {
+  color: #C5A65A;
+}
+.redes a {
+  color: #C5A65A;
+}
+
+/* inicio Page Nosotros */
+/* principal y video */
+.section1 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+  text-align: center;
+  align-items: center;
+  color: #C5A65A;
+}
+.section1 .h1drone {
+  display: flex;
+  flex-direction: column;
+}
+.section1 p {
+  font-size: 0.8rem;
+  font-weight: 450;
+  color: #C5A65A;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/* Nuestro Equipo */
+.nosotros__main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 6rem;
+  margin: 15px;
+  background-image: url(../imagenes/rockys-56\ 3.JPEG);
+  background-size: 100%;
+  background-position: bottom;
+  border-radius: 3rem;
+}
+.nosotros__main .nosotros__h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #C5A65A;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.nosotros__main .nosotros__p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #C5A65A;
+  margin-bottom: 4rem;
+  width: 100%;
+}
+
+/* inicio Page Gift Card */
+.gift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.gift .gift1 {
+  color: #C5A65A;
+  font-size: 3rem;
+}
+.gift .gift2 {
+  color: #C5A65A;
+}
+.gift .card-text {
+  background-color: black;
+  font-size: 1rem;
+}
+
+/* inicio Contacto */
+/* Sección Contactanos */
+form {
+  background-color: black;
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+form h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+form textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+form #botoncontacto {
+  background: #C5A65A;
+  padding: 20px;
+}
+
+/* inicio Turnos */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.app .app1 {
+  color: #C5A65A;
+  font-size: 3rem;
+}
+.app .app2 {
+  color: #C5A65A;
+}
+.app .app6 {
+  background-color: black;
+  font-size: 3rem;
+  padding-top: 10px;
+  text-decoration: none;
+}
+.app .btn2 {
+  background-color: #C5A65A;
+  color: black;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  /* Index */
+  /* Logo y Nav */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* foto sillon y texto */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  main .index__h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #C5A65A;
+    margin-bottom: 1rem;
+    width: 75%;
+  }
+  main .index__p {
+    background-color: black;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #C5A65A;
+    padding-right: 5rem;
+    width: 30%;
+  }
+  /* turnos */
+  .btn1 {
+    display: none;
+  }
+  /* video y texto */
+  .rockys__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .rockys__info .rockys__h1 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 4rem;
+    margin-top: 5px;
+    padding-top: 5px;
+    width: 75%;
+  }
+  .rockys__info .rockys__p {
+    text-align: left;
+    background-color: black;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #C5A65A;
+    padding-right: 4rem;
+    width: 40%;
+  }
+  /* Pagina Nosotros */
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .section1 .videodrone {
+    display: none;
+  }
+  .section1 .h1drone {
+    text-align: center;
+  }
+  .section1 p {
+    font-size: 0.3;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .nosotros__main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nosotros__main .nosotros__h1 {
+    background-color: black;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .nosotros__main .nosotros__p {
+    text-align: center;
+    font-size: 1rem;
+    background-color: black;
+    width: 100%;
+  }
+  /* Pagina contacto */
+  form {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) {
+  /* Index */
+  /* Logo y Nav */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* foto sillon y texto */
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  main .index__h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #C5A65A;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+  main .index__p {
+    background-color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #C5A65A;
+    padding-right: 5rem;
+    width: 80%;
+  }
+  /* turnos */
+  .btn1 {
+    display: none;
+  }
+  /* foto y texto 2 */
+  .rockys__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+  .rockys__info .rockys__h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #C5A65A;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+  .rockys__info .rockys__p {
+    background-color: black;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #C5A65A;
+    padding-right: 5rem;
+    width: 80%;
+  }
+  /* Pagina Nosotros */
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  .section1 .videodrone {
+    width: 100%;
+  }
+  .section1 .h1drone {
+    text-align: center;
+  }
+  .section1 p {
+    font-size: 0.3;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .nosotros__main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nosotros__main .nosotros__h1 {
+    background-color: black;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .nosotros__main .nosotros__p {
+    text-align: center;
+    font-size: 1rem;
+    background-color: black;
+    width: 100%;
+  }
+  /* Pagina contacto */
+  form {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  header nav, header a {
+    flex-direction: row;
+  }
+  main {
+    align-items: center;
+    text-align: center;
+  }
+  main .index__h1 {
+    font-size: 3rem;
+    color: white;
+    width: 100%;
+  }
+  main .index__p {
+    padding-right: 3rem;
+    width: 75%;
+  }
+}/*# sourceMappingURL=style.css.map */

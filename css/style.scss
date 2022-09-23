@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+$colorPrincipal: #C5A65A;
+$fuentePrincipal: 'roboto', sans-serif;
+
+
+h1, h2, h3, h4, h5,h6 p {
+  font-family: $fuentePrincipal;
+}
+
+  
+body {
+  font-family: $fuentePrincipal;
+  line-height: 1.5;
+  margin: 0;
+  background-color: $colorPrincipal;
+}
+
+header {
+  display: flex;
+  min-height: 100px;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  a{
+    font-family: $fuentePrincipal;
+    text-decoration: none; 
+  }
+  nav, a{
+    display: flex;
+    font-weight: 600;
+    padding-right: 10px;
+    color:  $colorPrincipal;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  
+  }
+  .logo, img {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    height: 50px;
+    margin-left: 10px;
+  
+    .logo-nombre {
+      color: black;
+      padding-left: 40px;
+    }
+    
+    .logo-nombre:hover {
+      display: flex;
+      color: $colorPrincipal;
+    }
+  }
+}
+
+
+/* Inicio Página */
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+  padding: 6rem;
+  background-image: url(../imagenes/sillonliving2.JPG);
+  background-size: cover;
+  background-position: center;
+  border-radius: 3rem;
+
+.index__h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  
+.index__p {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffff;
+    margin-bottom: 3rem;
+    margin-left: 8rem;
+    width: 80%;
+  }
+ 
+}
+
+/* Reserva turno */
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:black;
+  padding: 2rem;
+  margin: 1.5rem;
+  border-radius: 3rem;
+
+  .booksy__h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color:  $colorPrincipal;
+    text-align: center;
+  }
+  
+  .booksy__h3 {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    color:  $colorPrincipal;
+    text-align: center;
+  }
+  
+  p{
+    font-size: 0.8rem;
+    font-weight: 450;
+    color:  $colorPrincipal;
+    text-align: center;
+  
+  }
+
+  .btn1{
+    color: $colorPrincipal;
+    padding-left: 38rem;
+  }
+
+}
+
+
+/* SERVICIOS */  
+
+
+.rockys__info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:15px;
+    padding: 8rem;
+    background-image: url(../imagenes/rockys-22\ 5.JPEG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 3rem;
+
+     
+.rockys__h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 2rem;
+
+}
+
+.rockys__p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 3rem;
+  margin-left: 8rem;
+  width: 80%;
+
+} 
+
+}
+  
+/* LINKS REDES */ 
+
+/* Footer */ 
+
+.redes{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+.redes__h2{
+    color: $colorPrincipal;
+  }
+  
+a{
+  color: $colorPrincipal;
+}  
+
+}
+
+
+
+/* inicio Page Nosotros */
+
+
+/* principal y video */
+
+.section1{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+  text-align: center;
+  align-items: center;
+  color: $colorPrincipal;
+  
+  .h1drone{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  p{
+    font-size: 0.8rem;
+    font-weight: 450;
+    color:  $colorPrincipal;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+}
+
+
+/* Nuestro Equipo */
+
+
+.nosotros__main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 6rem;
+  margin: 15px;
+  background-image: url(../imagenes/rockys-56\ 3.JPEG);
+  background-size: 100%;
+  background-position: bottom;
+  border-radius: 3rem;
+
+  .nosotros__h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: $colorPrincipal;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  
+  .nosotros__p {
+    font-size: 2rem;
+    font-weight: 800;
+    color: $colorPrincipal;
+    margin-bottom: 4rem;
+    width: 100%;
+  } 
+
+}
+
+
+/* inicio Page Gift Card */
+
+.gift{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .gift1{
+    color: $colorPrincipal;
+    font-size: 3rem;
+  }
+  
+  .gift2{
+    color: $colorPrincipal;
+  }
+
+  .card-text{
+    background-color: black;
+    font-size: 1rem;
+  }
+  
+
+}
+
+/* inicio Contacto */
+
+/* Sección Contactanos */
+
+form{
+  background-color: black;
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+
+  h2{
+    color: #ffff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+  }
+
+  textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+
+  #botoncontacto{
+    background: $colorPrincipal;
+    padding: 20px;
+  }
+}
+
+/* inicio Turnos */
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  .app1{
+    color: $colorPrincipal;
+    font-size: 3rem;
+  }
+  
+  .app2{
+    color: $colorPrincipal;
+  }
+
+  .app6{
+    background-color: black;
+    font-size: 3rem;
+    padding-top: 10px;
+    text-decoration: none;
+  }
+
+  .btn2{
+    background-color: $colorPrincipal;
+    color: black;
+    text-decoration: none;
+  }
+  
+}
+
+
+
+/* RESPONSIVE */
+
+
+@media (max-width: 480px) {
+
+   /* Index */
+  
+  /* Logo y Nav */
+
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    nav{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+ }
+  
+  /* foto sillon y texto */
+
+   main{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     text-align: left;
+
+     .index__h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      color: $colorPrincipal;
+      margin-bottom: 1rem;
+      width: 75%;
+    }
+    
+  .index__p {
+    background-color: black;
+      font-size: .9rem;
+      font-weight: 400;
+      color: $colorPrincipal;
+      padding-right: 5rem;
+      width: 30%;
+
+    }
+
+}
+  
+/* turnos */
+
+  .btn1{
+    display: none;
+  }
+
+/* video y texto */
+
+ .rockys__info{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+ 
+
+  .rockys__h1 {
+    text-align: left;
+   font-size: 1.5rem;
+   font-weight: 500;
+   color: #ffff;
+   margin-bottom: 4rem;
+   margin-top: 5px;
+   padding-top: 5px;
+   width: 75%;
+ }
+ 
+.rockys__p {
+  text-align: left;
+ background-color: black;
+   font-size: .9rem;
+   font-weight: 400;
+   color: $colorPrincipal;
+   padding-right: 4rem;
+   width: 40%;
+
+ }
+
+}
+
+/* Pagina Nosotros */
+
+  .section1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 1rem;
+
+    .videodrone{
+      display: none;
+    }
+
+    .h1drone{
+      text-align: center;
+    }
+
+    p{
+      font-size: .3;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 1rem;
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+
+    }
+  }
+
+  .nosotros__main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  .nosotros__h1{
+    background-color: black;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .nosotros__p{
+    text-align: center;
+    font-size: 1rem;
+    background-color: black;
+    width: 100%;
+  }
+
+}
+
+ /* Pagina contacto */
+
+form{
+  width: 100%;
+}
+
+}
+
+
+@media (min-width: 481px) {
+    /* Index */
+  
+  /* Logo y Nav */
+
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    nav{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+ }
+  
+  /* foto sillon y texto */
+
+   main{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     text-align: left;
+
+     .index__h1 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: $colorPrincipal;
+      margin-bottom: 1.5rem;
+      width: 100%;
+    }
+    
+  .index__p {
+      background-color: black;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: $colorPrincipal;
+      padding-right: 5rem;
+      width: 80%;
+
+    }
+
+}
+  
+/* turnos */
+
+  .btn1{
+    display: none;
+  }
+
+/* foto y texto 2 */
+
+ .rockys__info{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+ 
+
+  .rockys__h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: $colorPrincipal;
+    margin-bottom: 1.5rem;
+    width: 100%;
+ }
+ 
+.rockys__p {
+  background-color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $colorPrincipal;
+  padding-right: 5rem;
+  width: 80%;
+
+ }
+
+}
+
+/* Pagina Nosotros */
+
+  .section1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 1rem;
+
+    .videodrone{
+      width: 100%;
+    }
+
+    .h1drone{
+      text-align: center;
+    }
+
+    p{
+      font-size: .3;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 1rem;
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+
+    }
+  }
+
+  .nosotros__main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  .nosotros__h1{
+    background-color: black;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .nosotros__p{
+    text-align: center;
+    font-size: 1rem;
+    background-color: black;
+    width: 100%;
+  }
+
+}
+
+ /* Pagina contacto */
+
+form{
+  width: 100%;
+}
+
+}
+
+@media (min-width: 768px) {
+
+  header{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    nav, a{
+      flex-direction: row;
+
+      }
+
+}
+
+main{
+  align-items: center;
+  text-align: center;
+
+  .index__h1{
+    font-size: 3rem;
+    color: #ffff;
+    width: 100%;
+  }
+
+  .index__p{
+    padding-right: 3rem;
+    width: 75%;
+  }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
